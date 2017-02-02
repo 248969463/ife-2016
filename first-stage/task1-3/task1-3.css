@@ -1,0 +1,60 @@
+html, body {
+	margin: 0;
+	padding: 20px;
+}
+
+.out-box {
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: inherit;
+	/*清除浮动*/
+	overflow: auto;
+}
+
+.box-1 {
+	background-color: #FFFFFF;
+	float: left;
+	border: inherit;
+	padding: inherit;
+}
+
+.box-1 img {
+	background-color: #eee;
+}
+
+.box-1 p {
+	width: 80px;
+	display: inline;
+	position: relative;
+	bottom: 64px
+}
+
+.box-2 {
+	background-color: #FFFFFF;
+	border: inherit;
+	padding: inherit;
+	margin-left: 214px;
+	margin-right: 144px;
+}
+
+.box-3 {
+	background-color: #FFFFFF;
+	float: right;
+	border: inherit;
+	padding: inherit;
+}
+
+.box-3 img {
+	background-color: #eee;
+	float: none;
+	display: block;
+	margin-bottom: 10px;
+	border: 1px solid #999;
+}
+
+.box-3 img.last {
+	float: none;
+	display: block;
+	margin-bottom: 0;
+	border: 1px solid #999;
+}
